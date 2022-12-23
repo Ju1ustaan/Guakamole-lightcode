@@ -1,27 +1,23 @@
+/* обязательные свойства элементам  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Raleway', sans-serif;
 }
-
 a {
     text-decoration: none;
     color: inherit;
 }
-
 button {
     border: none;
     background-color: transparent;
 }
-
 li {
     list-style: none;
 }
-
 .container {
     max-width: 1370px;
     margin: 0 auto;
@@ -33,7 +29,6 @@ li {
     position: absolute;
     width: 100%;
 }
-
 .header__nav {
 
     display: flex;
@@ -41,11 +36,9 @@ li {
     padding: 27px 0;
     align-items: center;
 }
-
 .header__nav svg {
     margin-left: 25px;
 }
-
 .header__navbar {
     margin-left: 25px;
     font-weight: 700;
@@ -54,9 +47,7 @@ li {
     color: #FFFFFF;
     transition: 0.5s;
 }
-/* начало анимации  */
-
-  
+/* начало анимации навигационного меню */ 
   .header__nav .header__navbar {
     display: block;
     position: relative;
@@ -492,6 +483,17 @@ li {
     position: relative;
     height: 557px;
 }
+.clients__names{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: none;
+}
+.clients__name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 174.69%;
+    color: #333333;
+}
 
 .clients__img {
     position: absolute;
@@ -666,7 +668,6 @@ li {
     line-height: 137.4%;
     padding-top: 321px;
     text-align: center;
-
     color: #FFFFFF;
 
 
@@ -685,17 +686,6 @@ li {
 }
 
 .booking__btn{
-    /* position: relative;
-    border: none;
-    transition: all 0.3s ease;
-    overflow: hidden;
-    width: 350px;
-    height: 67px;
-    margin: 56px 500px;
-    background: #1FF0D7;
-    border-radius: 50px;
-    text-align: center;
-    color: #FFFFFF; */
     position: relative;
     margin-top: 30px;
     width: 322px;
